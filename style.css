@@ -367,9 +367,9 @@ footer a:hover{
 
 
 
-@media (max-width:700px){
+@media (max-width:480px){
     body{
-        background: linear-gradient(to right , rgb(253, 152, 253),rgb(127, 127, 241));
+        background: linear-gradient( rgb(253, 152, 253),rgb(127, 127, 241));
     }
 
     hr{
@@ -379,6 +379,7 @@ footer a:hover{
     /* navbar section */
     .navbar{
         display: block;
+        background-color: black;
     }
     .diagno{
         padding-left: 0px;
@@ -386,8 +387,8 @@ footer a:hover{
     }
     .social{
         position: absolute;
-        right: 0px;
-        top: 18px;
+        right: -20px;
+        top: 60px;
     }
     .social div a img{
         transform: scale(0.5);
@@ -395,12 +396,25 @@ footer a:hover{
     .social div a img:hover{
         transform: scale(1);
     }
+    .room{
+        padding: 8% 3%;
+    }
+    .room div:hover{
+        transform: scale(1.1);
+    }
+    .room div a{
+        font-size: 1.1rem;
+        color: aqua;
+    }
+    .room div a:hover{
+        color: brown;
+    }
     /* home section */
     .home{
         display: block;
         width: 100%;
-        padding: 160px 0px;
-        height: 705px;
+        padding: 20px 0px;
+        height: 90vh;
     }
     .purpose1{
         position: absolute;
@@ -430,7 +444,7 @@ footer a:hover{
     display: block;
     justify-content: center;
     text-align: center;
-    height: 1570px;
+    height: 220vh;
     margin: 40px 0px;
     padding-top: 180px;
     }
@@ -447,7 +461,7 @@ footer a:hover{
     }
 
     .abodia {
-        margin: 0px 20px;
+        margin: 50px 20px;
     }
     .abodia h2{
     margin-bottom: 30px;
@@ -474,9 +488,10 @@ footer a:hover{
 /* service section */
     .service{
         display: block;
-        padding-top: 180px;
-        height: 1100px;
+        height: 110vh;
         width: 100%;
+        padding: 20px;
+        padding-top: 160px;
         }
     .service h1{
         text-align: center;
@@ -490,12 +505,16 @@ footer a:hover{
         margin: 30px 0px;
         width: 100%;
     }
-
+    .appointment:hover{
+        transform: scale(1.1);
+    }
+    
 /* contact section */
 
     .contact{
-        padding: 50px;
+        padding: 10px;
         height: 650px;
+        padding-top: 170px;
     }
     #contact-body{
         height: 100px;
